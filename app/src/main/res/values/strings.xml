@@ -6,4 +6,32 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+    <string name="teacher">Teacher</string>
+    <string name="subject">Subject</string>
+    <string name="patricio_reyes">Patricio Reyes</string>
+    <string name="_09981235678">09981235678</string>
+    <string name="patricia_reyes">Patricia Reyes</string>
+    <string name="_14_fruit_st_admiral_subdivision_las_pinas_city">14 Fruit St. Admiral Subdivision, Las Pinas City</string>
+    <string name="_7_years_old">7 years old</string>
+    <string name="lrn_0002">LRN:0002</string>
+    <string name="choose_age">Choose Age</string>
+    <string name="grade_and_section">Grade and Section</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="science">Science</string>
+    <string name="ms_fatima">Ms. Fatima</string>
+    <string name="address">Address</string>
+    <string name="student_number">Student Number</string>
+    <string name="name">Name</string>
+    <string name="adviser_s_name">Adviser\'s Name</string>
+    <string name="add_subject_and_advisory">Add Subject and Advisory</string>
+    <string name="choose_from_gallery">Choose from gallery</string>
+    <string name="reyes_kenji">Reyes, Kenji</string>
+    <string name="grade_ii_st_bernadette">Grade II St. Bernadette</string>
+    <string name="lrn_001">LRN:001</string>
+    <string name="delete">Delete</string>
+    <string name="ms_fatima_bernada">Ms. fatima bernada</string>
+
 </resources>
