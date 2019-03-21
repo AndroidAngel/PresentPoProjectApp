@@ -114,6 +114,12 @@ class AddStudentActivity : AppCompatActivity() {
             dialog.show()
 
         }
+
+        add_btn_subject_advisory_id.setOnClickListener{
+            TODO()
+        }
+
+
     }
     override fun onOptionsItemSelected(item: MenuItem): Boolean{
         val id = item.itemId

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/add_subject_et_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Subject" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/ass_teacher_et_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Teacher" />
+
+    </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/save_subject_id"
+            android:layout_weight="1"
+            android:text="@string/save"
+            android:layout_marginEnd="8dp"
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:background="#56A8E3"
+            android:textColor="#ffff"
+            android:layout_gravity="center_vertical"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/cancel_subject_id"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="Cancel"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            android:textColor="#ffff"
+            android:background="#979797"
+            android:layout_gravity="center_vertical"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/background"
         android:orientation="vertical"
         android:padding="8dp">
 
@@ -17,19 +23,22 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
-                android:layout_marginBottom="4dp"
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/student_profile_image_id"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:civ_border_color="#ffff"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="4dp"
                 android:src="@drawable/student"
-                android:layout_gravity="center_horizontal" />
+                app:civ_border_width="2dp" />
 
             <TextView
                 android:id="@+id/student_name_id"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
+                android:gravity="center_horizontal"
                 android:text="@string/reyes_kenji"
                 android:textSize="24sp" />
         </LinearLayout>
@@ -282,11 +291,48 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
+        
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            
+            <TextView
+                android:text="Subject"
+                android:layout_marginEnd="10dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
 
 
+            <View
+                android:layout_width="2dp"
+                android:layout_height="15dp"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="center"
+                android:background="#979797" />
+
+            <TextView
+                android:text="Teacher"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/subject_teacher_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+    </LinearLayout>
 
 
     </LinearLayout>
-</RelativeLayout>
+</FrameLayout>
